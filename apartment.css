@@ -1,0 +1,229 @@
+/** 
+
+    File Name : Apartment.css  
+ 
+ 
+    @Author   : Utsavkumar Patel , Student Number : 000820474 
+    
+**/
+
+
+/* default */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;	
+}
+
+/* general */
+
+
+h1{
+   text-align:center;
+   color: rgb(59,104,144);   
+}	
+	
+h3{
+    padding: 0.5em 0 0.5em 0.5em;
+    margin-bottom: 0.5em;
+    width: 100%;
+    background-color: rgb(169,212,225);	
+	color: rgb(59,104,144);
+}
+
+h4{
+    padding: 0.5em 0 0.5em 0.5em;
+    margin-bottom: 0.5em;
+    width: 100%;
+    background-color: lightgray;	
+	color: white;
+}
+
+h5{
+    padding: 0.5em 0 0.5em 0.5em;
+    margin-bottom: 0.5em;
+    width: 100%;
+    background-color: rgb(169,212,225);	
+	color: rgb(59,104,144);
+	text-align:center;
+	font-size:16pt;
+}
+
+p{
+    margin-bottom: 10px;
+}	
+
+
+/* header */
+
+header{
+	text-align: center;
+	color: rgb(59,104,144);
+}
+
+/* nav */
+
+nav{
+   text-align: center;
+   margin-bottom: 40px;
+}	
+
+
+nav a{
+   margin-right: 20px;	
+   
+}	
+
+/* main grid */
+
+.outline{
+    display: grid;
+    grid-template-columns:4fr 3fr 2fr;	
+	grid-template-rows: auto;
+	grid-gap: 15px;
+	
+	margin-left: 10px;
+	margin-right: 10px;
+}	
+
+
+
+.survey{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 150px;   	
+}	
+
+
+.services{
+    grid-column:2/3;
+    grid-row:1/2;   	
+}	
+
+
+.location{
+    grid-column:3/4;
+    grid-row: 1/2;
+       	
+}	
+
+
+.welcome{
+    grid-column:1/2;
+    grid-row:2/3;
+    margin-top:-180px;   	
+}	
+
+
+/* services tables */
+
+main table {
+     width: 100%;
+     border-collapse:collapse;
+     border: 1px black solid;	 
+}	
+
+main th ,td{
+     border: 1px black solid;
+     padding: 5px;	 
+}	
+
+main th{
+    background-color: lightgray;	
+}	
+
+main tr.footer_cell {
+     background-color:rgb(254,252,214);	
+}
+
+main col.left_column {
+     width: 30%;	
+}	
+
+main figure.location_img{
+    width: 100%;	
+}	
+
+main img {
+    width: 100%;	
+}	
+
+
+
+/* gallery */
+
+.gallery {
+    margin-left: 10px;
+    margin-right: 10px;	
+}
+
+.galleryArea {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;	
+}
+
+.picbox{
+   flex-basis: 200px;  
+	
+}	
+
+
+
+
+/* footer */
+
+footer{
+    text-align: center;	
+}	
+
+
+
+/* rooms */
+
+.rooms figure{
+  margin-left: 20%;
+  width: 60%;
+  height: 400px; 
+ 
+}
+
+.rooms figure img{
+	width: 100%;
+	height: 100%;
+}	
+
+
+/* kitchen css */
+
+table{
+	   border:1px solid black;
+	   border-collapse:collapse;
+	   }
+
+td{
+	   border:1px solid black;
+}
+
+table th{
+	   border:1px solid black;
+	   background-color:lightgray;
+}
+
+.footer_cell{
+	   background-color:rgb(254,252,214);
+}
+
+div p{
+	     text-align:left;
+}
+
+
+
+
+
+
+
+
+

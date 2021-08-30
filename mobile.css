@@ -1,0 +1,58 @@
+/**
+
+   File Name : Main.css  
+
+   @Author   :  Utsavkumar Patel, Student Number  : 000820474
+   
+**/
+
+@media screen and (max-width: 768px)  {
+ 
+ 
+        header{
+			display:none;
+		}	
+		
+		nav a {
+		    display:block;
+            margin-bottom: 15px;			
+		}	
+
+		.outline{
+			display: grid;
+			grid-template-columns:1fr;	
+			grid-template-rows: auto;
+			grid-gap: 15px;
+			
+			margin-left: 10px;
+			margin-right: 10px;
+		}	
+
+
+		.survey{
+			grid-column: 1/2;
+			grid-row: 1/2;
+			height: 150px;   	
+		}	
+
+
+		.services{
+			grid-column:1/2;
+			grid-row:2/3;
+            margin: 0;			
+		}	
+
+
+		.location{
+			grid-column:1/2;
+			grid-row: 4/5;
+				
+		}
+ 
+        .welcome{
+             grid-column:1/2;
+			 grid-row:3/4;
+			 margin:0;
+        }		
+ 
+}
