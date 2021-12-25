@@ -1,2 +1,3 @@
 # Sandy-and-Leslies-Apartment
-Responsive website design using Image MAPs, Multimedia, WAI, CSS3, and HTML5
+
+Sandy and Leslies Apartment is a Responsive website design made using Image MAPs, Multimedia, WAI(Web Accessibility Initiative), CSS3, and HTML5 best practices
